@@ -143,7 +143,8 @@ a {
 /* ======================== Clients ======================== */
 
 .clients {
-    margin-top: 122px;
+    margin-top: 79px;
+    padding: 43px 0 64px;
 }
 
 .clients .row {
@@ -168,8 +169,12 @@ a {
 }
 
 /* ======================== Guides ======================== */
+
+.guides {
+    padding: 93px 0 79px;
+}
+
 .guides .sub-title {
-    margin-top: 114px;
     position: relative;
     font-weight: 600;
     font-size: 3.5rem;
@@ -245,13 +250,12 @@ a {
 
 /* ======================== Featured ======================== */
 .featured {
-    height: 727px;
+    margin-top: 41px;
+    padding: 110px 0;
     background: #f5fafe;
-    margin-top: 140px;
 }
 
 .featured .sub-title {
-    padding-top: 110px;
     color: #000339;
     font-size: 3.5rem;
     font-weight: 600;
