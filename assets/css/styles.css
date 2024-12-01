@@ -13,7 +13,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    background: #E6F0FF;
 }
 
 a {
@@ -23,7 +22,7 @@ a {
 .btn {
     display: inline-block;
     min-width: 98px;
-    border-radius: 8px;
+    border-radius: 12px;
     background: var(--primary-color);
     flex-shrink: 0;
     color: #fff;
@@ -40,7 +39,7 @@ a {
 .header {
     height: 736px;
     /* max-height: 736px; */
-    background: E6F0FF;
+    background: #e6f0ff;
     position: relative;
 }
 
@@ -86,6 +85,7 @@ a {
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+    border-radius: 8px;
 }
 
 .hero {
@@ -95,8 +95,6 @@ a {
 .hero .info {
     width: 52%;
 }
-
-
 
 .hero .sub-title {
     color: #687690;
@@ -134,4 +132,105 @@ a {
     bottom: 0;
 }
 
+/* ======================== Clients ======================== */
 
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients .desc {
+    color: #7d8589;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    margin-top: 23px;
+}
+
+.clients .images {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ======================== Guides ======================== */
+.guides .sub-title {
+    margin-top: 114px;
+    position: relative;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    text-align: center;
+    color: #000339;
+}
+
+.guides .sub-title::before {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: inline-block;
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background: #000339;
+}
+
+.guides .desc {
+    width: 459px;
+    max-width: 100%;
+    color: #5a6473;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin: 20px auto;
+}
+
+.list-guide {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-item {
+    padding: 0 70px;
+    text-align: center;
+}
+
+.guide-item .title {
+    margin-top: 26px;
+    color: #3b3c45;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.guide-item .link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0689ff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.guide-item .arrow {
+    margin-left: 6px;
+}
+
+.guide-cta {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.guide-cta .btn {
+    min-width: 170px;
+}
