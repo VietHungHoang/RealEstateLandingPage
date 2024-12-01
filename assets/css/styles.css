@@ -36,10 +36,12 @@ a {
 .btn:hover {
     opacity: 0.9;
 }
-/* Header */
+/* ======================== Header ======================== */
 .header {
-    height: 100vh;
+    height: 736px;
+    /* max-height: 736px; */
     background: E6F0FF;
+    position: relative;
 }
 
 .content {
@@ -125,3 +127,11 @@ a {
     padding-left: 38px;
     padding-right: 38px;
 }
+
+.hero img {
+    position: absolute;
+    right: calc((100vw - 1110px) / 2 - 100px);
+    bottom: 0;
+}
+
+
