@@ -234,3 +234,44 @@ a {
 .guide-cta .btn {
     min-width: 170px;
 }
+
+/* ======================== Featured ======================== */
+.featured {
+    height: 727px;
+    background: #F5FAFE;
+    margin-top: 140px;
+}
+
+.featured .sub-title {
+    padding-top: 110px;
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.featured .row {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured .desc {
+    color: #5a6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+
+.featured .link {
+    display: flex;
+    align-items: center;
+    color: #0689FF;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.featured .link .arrow {
+    margin-left: 8px;
+}
+
