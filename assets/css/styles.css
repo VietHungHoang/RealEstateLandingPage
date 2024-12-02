@@ -408,7 +408,7 @@ a {
 }
 
 .stats .info .desc {
-    width: 309px;
+    width: 315px;
     margin-top: 20px;
     font-weight: 400;
     font-size: 1.6rem;
@@ -447,7 +447,49 @@ a {
 }
 
 .stats .trend .seperate {
-    height: 1px;
+    height: 1.2px;
     margin-top: 25px;
     background: #e9e9e9;
+}
+
+.stats .avatar-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+    gap: 16px 14px;
+}
+
+.stats .avatar-group {
+    display: flex;
+}
+
+.stats .avatar-group .avatar {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -3px;
+}
+
+.stats .avatar:first-child {
+    margin-left: 0;
+}
+
+.stats .row-qty {
+    margin-top: 110px;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+.stats .qty-item .qty {
+    color: #000;
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+
+.stats .qty-item .desc {
+    margin-top: 24px;
+    color: #7b8087;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
