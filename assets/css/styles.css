@@ -351,7 +351,7 @@ a {
     margin-left: 8px;
 }
 
-/* ======================== Featured ======================== */
+/* ======================== Stats ======================== */
 .stats {
     margin-top: 75px;
     padding: 50px 0;
@@ -492,4 +492,52 @@ a {
     color: #7b8087;
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+/* ======================== Subcription ======================== */
+.subscription {
+    margin-top: 90px;
+}
+
+.subscription .body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background: #063183;
+    height: 370px;
+}
+
+.subscription .info {
+    width: 671px;
+    padding: 0 80px;
+}
+
+.subscription .info .title {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.subscription .info .desc {
+    margin-top: 15px;
+    color: #fff;
+    opacity: 0.75;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+
+.subscription .info .btn {
+    margin-top: 20px;
+    min-width: 151px;
+    background: #fff;
+    color: #002366;
+}
+
+.subscription .image {
+    position: absolute;
+    bottom: 0;
+    left: 671px;
 }
